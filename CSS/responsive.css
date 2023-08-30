@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+    span.silabas-da-marca > p {
+        font-size: 15px;
+    }
+
+    span.links-da-pagina {
+        gap: 8px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    span.links-das-redes-sociais {
+        gap: 10px;
+    }
+
+    span.links-das-redes-sociais > a {
+        font-size: 15px;
+    } 
+
+    div.div-do-header {
+        gap: 0;
+        align-items: center;
+    }
+
+    article > h1 {
+        margin-top: 0;
+    }
+
+    div.div-do-header {
+        flex-direction: column-reverse;
+    }
+
+    section {
+        max-width: 300px;
+    }
+
+    
+}
