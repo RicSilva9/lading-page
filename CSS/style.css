@@ -107,3 +107,26 @@ section{
 section img {
     width: 100%;
 }
+
+div.sobre {
+    margin-top: 60px;
+    justify-content: space-around;
+    display: flex;
+}
+
+section.imagem-da-camera-2 {
+    border-radius: 50%;
+    background-color: var(--cor-4);
+}
+
+section.imagem-da-camera-2 img {
+    max-width: 450px;
+}
+
+article.sobre-a-camera {
+    margin-top: 60px;
+}
+
+article.sobre-a-camera > h2 {
+    margin-bottom: 20px;
+}
