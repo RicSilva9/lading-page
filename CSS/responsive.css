@@ -29,13 +29,17 @@
         flex-direction: column-reverse;
     }
 
-    section {
+    section.imagem-do-header {
         max-width: 300px;
     }
 
     div.sobre {
         flex-direction: column;
         align-items: center;
+    }
+
+    section.imagem-da-camera-2 img {
+        max-width: 250px;
     }
     
 }
