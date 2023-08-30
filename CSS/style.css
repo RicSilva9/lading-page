@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-0: #585369;
+    --cor-1: #9474EC;
+    --cor-2: #C5B8E9;
+    --cor-3: #413369;
+    --cor-4: #998FB5;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+span.silabas-da-marca > p {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+span.links-da-pagina {
+    display: flex;
+    gap: 15px;
+}
+
+span.links-da-pagina > a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s color;
+}
+
+span.links-da-pagina > a:hover {
+    color: var(--cor-3);
+    text-decoration: underline;
+}
+
+span.links-das-redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+span.links-das-redes-sociais > a {
+    color: black;
+    font-size: 25px;
+    transition: 0.2s color;
+}
+
+span.links-das-redes-sociais > a:hover {
+    color: var(--cor-3);
+}
