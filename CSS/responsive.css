@@ -1,4 +1,5 @@
 @media (max-width: 1000px) {
+       /*NAV*/
     span.silabas-da-marca > p {
         font-size: 15px;
     }
@@ -16,6 +17,8 @@
         font-size: 15px;
     } 
 
+    /*HEADER*/
+
     div.div-do-header {
         gap: 0;
         align-items: center;
@@ -32,6 +35,8 @@
     section.imagem-do-header {
         max-width: 300px;
     }
+
+      /*MAIN*/
 
     div.sobre {
         flex-direction: column;
