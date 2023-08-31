@@ -31,6 +31,7 @@ nav {
     justify-content: space-between;
     background-color: white;
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
 }
@@ -132,6 +133,9 @@ div.sobre {
 section.imagem-da-camera-2 {
     border-radius: 50%;
     background-color: var(--cor-4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 section.imagem-da-camera-2 img {
@@ -140,6 +144,21 @@ section.imagem-da-camera-2 img {
 
 article.sobre-a-camera > h2 {
     margin-bottom: 20px;
+}
+
+div.video-da-canonr6 {
+    background-color: var(--cor-1);
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div.video-da-canonr6 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 h2.saber-mais {
