@@ -48,3 +48,11 @@
     }
     
 }
+
+@media (max-width: 670px) {
+
+    section.fotos-da-canon img.imagem-canon {
+        max-width: 200px;
+    }
+    
+}
