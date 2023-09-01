@@ -46,7 +46,15 @@
     section.imagem-da-camera-2 img {
         max-width: 250px;
     }
+
+    div.outras-cameras {
+        flex-direction: column;
+    }
     
+    div.outras-cameras1 {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 670px) {
