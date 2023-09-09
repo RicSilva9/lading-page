@@ -78,6 +78,7 @@ span.links-das-redes-sociais > a:hover {
 header {
     background-color: var(--cor-2);
     border-radius: 0px 0px 0px 30%;
+    margin-bottom: 45px;
 }
 
 div.div-do-header {
@@ -125,7 +126,7 @@ main {
 }
 
 div.sobre {
-    margin-top: 60px;
+    margin: 60px 0px 130px 0px;
     justify-content: space-around;
     display: flex;
 }
@@ -167,6 +168,7 @@ section.fotos-da-canon {
     margin: auto;
     margin-bottom: 80px;
     font-weight: 600;
+    margin-bottom: 130px;
 }
 
 section.fotos-da-canon h2 {
@@ -176,6 +178,9 @@ section.fotos-da-canon h2 {
 
 section.fotos-da-canon img.imagem-canon {
     max-width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: -15px -15px 0px var(--cor-3);
 }
 
      /* outras cameras */
@@ -218,7 +223,7 @@ div.outras-cameras1 {
    /* continuacao do main */
 
 h2.saber-mais {
-    margin: 30px 0px;
+    margin: 150px 0px 50px 0px;
     font-size: 30px;
 }
 
@@ -232,6 +237,7 @@ button.link-do-site-melhordoteche {
     border: none;
     border-radius: 30px;
     background-color: var(--cor-2);
+    margin-bottom: 120px;
 }
 
 /*FOOTER*/
